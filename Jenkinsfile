@@ -1,4 +1,5 @@
 pipeline {
+  agent any
     stages {
         stage('Build and test selenium project'){
         agent { //here we select only docker build agents
