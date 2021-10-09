@@ -39,7 +39,7 @@ public class NewTest {
 	 @Test
 		public void test3() {
 		driver.navigate().to("https://idp.bits-pilani.ac.in/idp/Authn/UserPassword");
-		 driver.findElement(By.xpath("//input[@id='username']")).sendKeys("2020HS70005@wilp.bits-pilani.ac.in");
+		 driver.findElement(By.xpath("//input[@id='username']")).sendKeys("2020HS70025@wilp.bits-pilani.ac.in");
 		 driver.findElement(By.xpath("//input[@id='pass']")).sendKeys(Password.password);
 		 driver. findElement(By.id("submitbtn")).click();
 		 driver. findElement(By.id("__eechatIcon")).click();
